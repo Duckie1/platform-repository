@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "test-s3-tf-state" {
 
-  bucket = "test-s3-tf-state-mdh"
+  bucket = "test-s3-tf-state-test"
 
   tags = {
-    "Name" = "test-s3-tf-state-mdh"
+    "Name" = "test-s3-tf-state-test"
   }
   
 }
